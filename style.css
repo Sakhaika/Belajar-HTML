@@ -1,28 +1,50 @@
 body {
-    background-color: beige;
+    background: linear-gradient(135deg, #f5f5dc 0%, #ffe4b5 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
 }
 
 h1 {
-    color: brown;
+    color: #8b4513;
     text-align: center;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    letter-spacing: 2px;
 }
 
 li {
-    color: darkblue;
+    color: #003d7a;
     font-size: 18px;
+    margin: 12px 0;
+    transition: all 0.3s ease;
+    padding-left: 10px;
+    border-left: 3px solid #ff6b6b;
 }
 
-.home a {
-    margin-top: 20px;
-    text-align: center;
+li:hover {
+    transform: translateX(10px);
+    color: #ff6b6b;
+    border-left-color: #003d7a;
 }
 
-.about a {
+.home a, .about a, .contact a {
+    display: inline-block;
     margin-top: 20px;
+    padding: 12px 30px;
+    background: linear-gradient(135deg, #ff6b6b, #ff8787);
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
     text-align: center;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    font-weight: 600;
 }
 
-.contact a {
-    margin-top: 20px;
-    text-align: center;
+.home a:hover, .about a:hover, .contact a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+    background: linear-gradient(135deg, #ff5252, #ff6b6b);
 }
