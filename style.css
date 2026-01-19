@@ -11,3 +11,18 @@ li {
     color: darkblue;
     font-size: 18px;
 }
+
+.home a {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about a {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.contact a {
+    margin-top: 20px;
+    text-align: center;
+}
